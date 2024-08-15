@@ -1,0 +1,125 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background: #508d4e;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #d6efd8;
+  color: #000000;
+  font-family: "Exo 2", sans-serif;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 10px 0 0;
+}
+
+section {
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#about img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#about h2 {
+  font-family: "Exo 2", sans-serif;
+}
+#about p {
+  font-family: "Bree Serif", serif;
+  text-align: center;
+  font-size: x-small;
+}
+#skills {
+  background: #d6efd8;
+}
+#skills ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#skills ul li {
+  display: inline-block;
+  margin: 0 10px;
+  background: #959494;
+  font-family: "Bree Serif", serif;
+  padding: 10px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+#projects .project {
+  margin-bottom: 20px;
+}
+#projects h3,
+h2 {
+  font-family: "Exo 2", sans-serif;
+}
+#projects p {
+  font-family: "Bree Serif", serif;
+  text-align: center;
+}
+
+#projects img {
+  width: 60%;
+  height: auto;
+}
+#myresume {
+  background: #d6efd8;
+}
+#myresume h2 {
+  font-family: "Exo 2", sans-serif;
+}
+#myresume a {
+  font-family: "Bree Serif", serif;
+  display: block;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+#contact h2 {
+  font-family: "Exo 2", sans-serif;
+}
+#contact p {
+  font-family: "Bree Serif", serif;
+  text-align: center;
+  margin: 10px 0;
+}
+
+footer {
+  font-family: "Bree Serif", serif;
+  background: #d6efd8;
+  color: #000;
+  font-size: x-small;
+  text-align: center;
+  padding: 5px 0;
+}
